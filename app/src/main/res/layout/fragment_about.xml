@@ -1,0 +1,20 @@
+<!-- file layout fragment_text.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_text_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/wallpaper6"
+    >
+
+    <TextView
+        android:id="@+id/text_view_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi ini merupakan aplikasi yang dapat menyimpan data-data yang biasanya digunakan untuk mengingat suatu hal yang penting atau tidak"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        />
+
+</LinearLayout>
